@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QYMYZ.COM — Ulttyq Shypaly Susyn</title>
+  <style>
+    :root {
+      --primary: #1b4332;
+      --accent: #d4a373;
+      --light: #fefae0;
+      --dark: #212529;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+    body { color: var(--dark); background: #fdfbf7; line-height: 1.6; }
+    header { background: var(--primary); color: var(--white); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: 1px; }
+    nav a { color: var(--white); text-decoration: none; margin-left: 1.5rem; font-weight: 500; }
+    nav a:hover { color: var(--accent); }
+    .hero { background: linear-gradient(rgba(27,67,50,0.85), rgba(27,67,50,0.85)), url('https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=80&w=1200') center/cover; color: var(--white); text-align: center; padding: 5rem 1.5rem; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 1.5rem; }
+    .btn { background: var(--accent); color: var(--dark); padding: 0.75rem 1.5rem; border: none; border-radius: 4px; font-weight: 700; cursor: pointer; text-decoration: none; display: inline-block; }
+    .container { max-width: 1000px; margin: 3rem auto; padding: 0 1.5rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+    .card { background: var(--white); padding: 1.5rem; border-radius: 8px; border: 1px solid #e9ecef; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .card h3 { color: var(--primary); margin-bottom: 0.5rem; }
+    footer { background: var(--primary); color: var(--white); text-align: center; padding: 2rem 1.5rem; margin-top: 3rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">QYMYZ.COM</div>
+    <nav>
+      <a href="#about">Biz zhajly</a>
+      <a href="#types">Tuirleri</a>
+      <a href="#benefits">Pajdasy</a>
+      <a href="#contact">Bajlanys</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Qazaqtyn shypaly susyny — Qymyz</h1>
+    <p>Dertke daua, boygha quat beretin tabighi ulttyq onim.</p>
+    <a href="#contact" class="btn">Tapsyrys beru</a>
+  </section>
+
+  <section id="about" class="container">
+    <h2>Qymyz turaly</h2>
+    <p style="margin-top: 0.5rem;">Qymyz — bie suiting achyryluy arqyly dajyndalatyn ezhelgi shypaly susyn. Ol aghany tazartyp, kuishtik quatty arttyratyn bagha zhetpes tabighi dary.</p>
+  </section>
+
+  <section id="types" class="container">
+    <h2>Qymyztyn negizgi tuirleri</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Saumal</h3>
+        <p>Zhana sauylghan, achymaghan sapa. Bauyr men as qorytu zholdaryna em.</p>
+      </div>
+      <div class="card">
+        <h3>Bal qymyz</h3>
+        <p>Bapy jetken, sharybyna kelgen, zhumsyq ari tatimdim daam.</p>
+      </div>
+      <div class="card">
+        <h3>Donen & Besti qymyz</h3>
+        <p>Tolyq ashyp quat alghan, ashy ari kuashti dastuirdi qymyz.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="container">
+    <h2>Densaulyqqa pajdasy</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Immundyq zhuie</h3>
+        <p>A, C, B tobyndagy vitaminderge baj bolyp, dertke qarsy kuashti arttyrady.</p>
+      </div>
+      <div class="card">
+        <h3>As qorytu</h3>
+        <p>Ishek-qaryn mikroflorasyn rettep, zattar almasuyn zhaqsartady.</p>
+      </div>
+      <div class="card">
+        <h3>Zuike zhuijesi</h3>
+        <p>Kuizelisti azajtyp, tynyshtandyru arqyly uiqy sapasyn koteredi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Bajlanys</h2>
+    <p style="margin-top: 0.5rem;">Suraqtar men tapsyrys boyynsha habarlasynyz:</p>
+    <div class="card" style="margin-top: 1rem;">
+      <p><strong>Email:</strong> info@qymyz.com</p>
+      <p><strong>Domiyn:</strong> www.qymyz.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 QYMYZ.COM. Barlyq quqyqtar qorghalghan.</p>
+  </footer>
+
+</body>
+</html>
